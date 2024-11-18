@@ -14,5 +14,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
-    uses: RelativeProgramming/quartz-gh-pages-action
+  publish_job:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: RelativeProgramming/quartz-gh-pages-action@main
