@@ -20,3 +20,5 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
     - uses: RelativeProgramming/quartz-gh-pages-action@main
+      with:
+        quartz-version: v4.4.0
