@@ -19,6 +19,6 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-    - uses: RelativeProgramming/quartz-gh-pages-action@main
+    - uses: RelativeProgramming/versioned-quartz-gh-pages-deploy@main
       with:
         quartz-version: v4.4.0
