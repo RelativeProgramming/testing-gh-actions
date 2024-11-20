@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: 'plausible',
     },
     locale: 'en-US',
-    baseUrl: 'relativeprogramming.github.io/testing-gh-actions',
+    baseUrl: 'relativeprogramming.github.io/testing-gh-actions/current',
     ignorePatterns: ['private', 'templates', '.obsidian'],
     defaultDateType: 'created',
     generateSocialImages: false,
